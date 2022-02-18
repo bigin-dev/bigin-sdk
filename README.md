@@ -1,12 +1,12 @@
 Bigin SDK for Google Tag Manager
 ---
 
-Web Application에서 `이커머스 추적`, `프로필 추적`, `커스텀 이벤트` 등의 데이터를 수집 하는 Bigin SDK의 설치를 지원합니다.<br>
-또한 `Bigin SDK Template`을 사용하기 위해서는 `Bigin SDK Loader`가 동일한 GTM 컨테이너에 설치가 되어있어야 하며, Web Application에 이벤트 별 시점에 맞게 DataLayer를 이용해서 이벤트를 호출 하도록 적용이 되어 있어야 합니다.
+사이트에서 `이커머스 추적`, `프로필 추적`, `커스텀 이벤트` 등의 데이터를 수집 하는 Bigin SDK의 설치를 지원합니다.<br>
+또한 `Bigin SDK Template`을 사용하기 위해서는 `Bigin SDK Loader`가 동일한 GTM 컨테이너에 설치가 되어있어야 하며, 사이트에 이벤트 별 시점에 맞게 DataLayer를 이용해서 이벤트를 호출 하도록 적용이 되어 있어야 합니다.
 
 # 설치 방법
 
-Step1. 정해진 형식에 맞춰 DataLayer 코드를 web application에 추가해 주세요
+Step1. 정해진 형식에 맞춰 DataLayer 코드를 사이트에 추가해 주세요
  - :warning: 정해진 형식에 맞춰 설치를 안할경우 올바른 데이터 수집이 어려우니 반드시 형식에 맞춰 작성해 주세요.
 
 Step2. 태그 생성하기 버튼을 클릭하고 `Bigin SDK` tag를 선택해 주세요.
@@ -22,7 +22,7 @@ Bigin SDK Template을 사용하여 SDK를 설치하기 위해서는 DataLayer를
 
 - DataLayer에 대한 자세한 설명은 [Google Tag Manager : Bigin SDK 설치 가이드 - DataLayer](https://www.notion.so/Google-Tag-Manager-Bigin-SDK-18d1f34824c44fd6bceacfc231ac4f77) 를 참고해 주세요
 
-```javasc
+```javascript
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
   "event": "biginTracking",
