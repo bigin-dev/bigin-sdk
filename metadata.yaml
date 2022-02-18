@@ -1,0 +1,5 @@
+homepage: "https://bigin.io/main"
+documentation: "https://bigin.io/main"
+versions:
+  - sha: 
+    changeNotes: Initial release
