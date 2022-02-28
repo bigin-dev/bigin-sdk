@@ -14,6 +14,7 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "Bigin SDK",
+  "categories": ["AFFILIATE_MARKETING", "MARKETING"],
   "brand": {
     "id": "brand_dummy",
     "displayName": "\bBiginsight",
